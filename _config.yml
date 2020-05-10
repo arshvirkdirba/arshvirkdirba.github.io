@@ -1,0 +1,66 @@
+# site settings
+# ______________________________
+# name of the website
+name: "My pencils"
+# github pages url
+baseurl: https://arshvirkdirba.github.io
+# repository name
+scope:
+
+# theme settings
+# _______________________________
+# use this google tool for finding hexcode for your fav color https://www.google.com/search?q=color+picker
+# color of the theme on android phones
+theme_color: "#0dc6ff"
+# background color of caption page
+caption_bg_color: "#14addb"
+# text color of captions
+caption_text_color: "#fff"
+
+# metadata settings
+# _________________________________
+# greetings on the gome page
+greeting: "Welcome"
+# author of the website
+author: "Arsh Virk"
+# heading on the home and about page
+heading: "This is my Art Gallery"
+# description of this website for about page and google search
+description: "the digital collection of my arts"
+
+# graphics settings
+# _____________________________________
+# icon for browser
+favicon: "assets/img/favicon.ico"
+# logo for home and about page
+logo: "assets/img/logo.png"
+# author's personal pic for about page
+pic: "assets/img/me.jpg"
+
+# Author's details
+# ________________________________________________
+# author's email
+email: "arshvirkdirba@gmail.com"
+# author's socials
+twitter: https://twitter.com/ArshVirkdirba
+facebook: https://www.facebook.com/arshvirkdirba
+instagram: https://www.instagram.com/_adeev_/
+youtube: 
+whatsapp:
+google-plus:
+linkedin: https://www.linkedin.com/in/arshdeep-singh-38b44114a
+github:
+spotify:
+messenger:
+
+# jekyll Settings
+# _________________________________
+collections:
+  arts:
+    output: true
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+theme: jekyll-theme-cayman
